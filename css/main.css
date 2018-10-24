@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1px;
+    margin: 10px 20px 0 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+
+
+.title {
+    height: 80vh;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/background.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.title:after {
+    background-color: #000000;
+    opacity: 0.1;
+}
+
+.title__wrapper {
+    height: 100%;
+}
+
+.title__header {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -2.5px;
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+
+.title__header:after,
+.services__header:after {
+    content: '';
+    color: #35c2f8;
+    display: inline-block;
+    width: 111px;
+    height: 2px;
+    background-color: #35c2f8;
+}
+
+.title__text {
+    position: relative;
+    top: 50%;
+    color: #cccccc;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+.services {
+    margin-bottom: 7em;
+}
+
+.services__header {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    position: relative;
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+
+.services__column h1 {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2em 0 0 1em;
+}
+
+.services__column p {
+    color: #888888;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.expertise {
+    background-color: #f7f7f7;
+}
+
+.expertise h1 {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 2em;
+}
+
+.expertise p {
+    margin: 0 0 4em 0;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.expertise h5 {
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.expertise img {}
+
+.expertise-button {
+    border-radius: 75px !important;
+}
+
+.amazing {
+    background-image: url('/img/bg3.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.col-sm-1,
+.col-sm-11 {
+    padding: 0 0 0 0;
+}
+
+@media (max-width: 900px) {}
+
+@media (max-width: 390px) {
+    .title__header {
+        font-size: 40px;
+        top: 20%;
+    }
+
+    .title__text {
+        top: 30%;
+    }
+}
