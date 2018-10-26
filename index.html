@@ -7,6 +7,7 @@
     <title>Dreams</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/timeline.css">
 </head>
@@ -15,31 +16,33 @@
     <header>
         <nav class='navbar navbar-expand-lg fixed-top'>
             <div class='container'>
-                <a href="#"><img src="img/logo.png" class='logo' alt=""></a>
+                <a href="#one" class='logo'>
+                    Dreams
+                </a>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">HOME
+                            <a class="nav-link" href="#one">HOME
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICES
+                            <a class="nav-link" href="#two">SERVICES
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PORTFOLIO
+                            <a class="nav-link" href="#three">PORTFOLIO
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT
+                            <a class="nav-link" href="#four">ABOUT
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">TEAM
+                            <a class="nav-link" href="#five">TEAM
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT
+                            <a class="nav-link" href="#six">CONTACT
                             </a>
                         </li>
                     </ul>
@@ -48,7 +51,7 @@
         </nav>
     </header>
 
-    <section class='title parallax container-fluid'>
+    <section class='title parallax container-fluid' id='one'>
         <div class='title__wrapper'>
             <h1 class='title__header'>BUILD THE WEBSITE OF <span style="display: block;">YOUR
                     DREAMS</span></h1>
@@ -57,7 +60,7 @@
         </div>
     </section>
 
-    <section class='services container'>
+    <section class='services container' id='two'>
         <h1 class='services__header'>CORE SERVICES<span style="display: block;"></span></h1>
 
         <div class='row'>
@@ -133,7 +136,7 @@
         </div>
     </section>
 
-    <section class='portfolio container-fluid'>
+    <section class='portfolio container-fluid' id='three'>
         <h1 class='portfolio__header'>PORTFOLIO<span style="display: block;"></span></h1>
         <div class='row text-center'>
             <div class='col-sm-12 justify-content-center align-items-center'>
@@ -161,7 +164,7 @@
         </div>
     </section>
 
-    <section class=' about  container'>
+    <section class=' about  container' id='four'>
         <h1 class='services__header'>ABOUT US<span style="display: block;"></span></h1>
         <div class="timeline">
             <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
@@ -230,7 +233,7 @@
         </div>
     </section>
 
-    <section class='team text-center'>
+    <section class='team text-center' id='five'>
         <h1 class='services__header'>AWESOME TEAM<span style="display: block;"></span></h1>
         <div class='container'>
 
@@ -278,7 +281,7 @@
 
     </section>
 
-    <section class='contact'>
+    <section class='contact' id='six'>
         <div class='container'>
             <div class='row'>
                 <div class='col-sm-7 contact__items'>
@@ -321,7 +324,11 @@
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
+    <script src='./js/scroll.js'></script>
+    <script src='./js/nav.js'></script>
     <script src="./js/parallax.js"></script>
 </body>
 
