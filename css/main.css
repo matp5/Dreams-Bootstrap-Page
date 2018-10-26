@@ -19,12 +19,15 @@
     color: grey;
 }
 
+.logo {
+    background-color: #red;
+}
 
 
 .title {
     height: 80vh;
     background-color: black;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/img/background.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/background.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
